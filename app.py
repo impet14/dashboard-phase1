@@ -324,4 +324,4 @@ def update_dashboard(n):
 # 5) RUN THE DASH APP
 # ------------------------------------------------------------------------------
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8080, debug=True, dev_tools_ui=False, dev_tools_props_check=False)
+    app.run(host='0.0.0.0', port=8080, debug=True, dev_tools_ui=False, dev_tools_props_check=False)
